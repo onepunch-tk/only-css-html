@@ -1,0 +1,13 @@
+@mixin anchorBtn($mainColor, $transColor) {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px 70px;
+  border: 1px solid $mainColor;
+  font-size: 10px;
+  transition: all 0.3s linear;
+  color: $mainColor;
+  &:hover {
+    background-color: $mainColor;
+    color: $transColor;
+  }
+}
