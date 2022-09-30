@@ -1,0 +1,28 @@
+{
+  "name": "best-horror-scenes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/register": "^7.18.9",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.54.0"
+  },
+  "homepage": "https://onepunch-tk.github.io/"
+}

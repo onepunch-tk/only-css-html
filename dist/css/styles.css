@@ -1,0 +1,399 @@
+@import url(https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;500&display=swap);
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+body,
+header {
+  margin: 0;
+}
+body,
+footer,
+header {
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+a a,
+abbr a,
+acronym a,
+address a,
+applet a,
+article a,
+aside a,
+audio a,
+b a,
+big a,
+blockquote a,
+body a,
+canvas a,
+caption a,
+center a,
+cite a,
+code a,
+dd a,
+del a,
+details a,
+dfn a,
+div a,
+dl a,
+dt a,
+em a,
+embed a,
+fieldset a,
+figcaption a,
+figure a,
+footer a,
+form a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+header a,
+hgroup a,
+html a,
+i a,
+iframe a,
+img a,
+ins a,
+kbd a,
+label a,
+legend a,
+li a,
+mark a,
+menu a,
+nav a,
+object a,
+ol a,
+output a,
+p a,
+pre a,
+q a,
+ruby a,
+s a,
+samp a,
+section a,
+small a,
+span a,
+strike a,
+strong a,
+sub a,
+summary a,
+sup a,
+table a,
+tbody a,
+td a,
+tfoot a,
+th a,
+thead a,
+time a,
+tr a,
+tt a,
+u a,
+ul a,
+var a,
+video a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  line-height: 1;
+  font-family: "Caladea";
+  padding: 70px 140px 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.blog__post .post__content .post__date,
+.under-hero h4,
+footer {
+  font-size: 10px;
+}
+.blog__post .post__content .post__date,
+.hero a,
+.hero h4,
+.under-hero a,
+.under-hero h4,
+footer,
+header nav ul {
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hero h4,
+header nav ul {
+  font-size: 10px;
+}
+header nav ul {
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}
+header,
+header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 140px;
+  background-color: #fff;
+  height: 70px;
+  font-size: 10px;
+}
+header nav {
+  justify-content: space-between;
+}
+header nav ul:first-child li {
+  margin-right: 60px;
+}
+.hero,
+.under-hero .under-hero__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1664421182297-568427dda2ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+  color: #fff;
+  margin-bottom: 80px;
+}
+.hero h4,
+.under-hero h4 {
+  margin-bottom: 30px;
+}
+.hero h3,
+.under-hero h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.hero h3 {
+  font-size: 48px;
+}
+.hero a,
+.under-hero a {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px 70px;
+  border: 1px solid #fff;
+  font-size: 10px;
+  transition: all 0.3s linear;
+  color: #fff;
+}
+.hero a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.under-hero {
+  height: 80vh;
+  display: flex;
+  margin-bottom: 80px;
+}
+.under-hero .under-hero__content {
+  height: 100%;
+  background-color: #f3ede8;
+}
+.hero h3,
+.under-hero div,
+.under-hero img {
+  width: 50%;
+}
+.under-hero h3 {
+  font-size: 36px;
+}
+.under-hero a {
+  border: 1px solid #414141;
+  color: #414141;
+}
+.under-hero a:hover {
+  background-color: #414141;
+  color: #fff;
+}
+.blog {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 45vh);
+}
+.blog__post {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog__post:nth-child(even) img {
+  order: 1;
+}
+.blog__post img {
+  width: 100%;
+  height: 100%;
+}
+.blog__post .post__content,
+footer .footer__column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.blog__post .post__content {
+  background-color: #f3ede8;
+  justify-content: center;
+}
+.blog__post .post__content .post__date {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.blog__post .post__content h4 {
+  font-size: 30px;
+  text-align: center;
+}
+.blog__post .post__content a {
+  margin-top: 30px;
+}
+.gallery,
+footer {
+  width: 100%;
+  display: grid;
+}
+.gallery {
+  margin-top: 80px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.gallery .gallery__post img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s linear;
+}
+.gallery .gallery__post img:hover {
+  opacity: 0.5;
+}
+footer {
+  position: absolute;
+  left: 0;
+  margin: 80px 0 0;
+  background-color: #f3ede8;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 60px;
+}
+footer .footer__column {
+  justify-content: space-between;
+}
+footer .footer__column:nth-child(2) {
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+}
+footer .footer__column .column__title {
+  color: #9d9d9c;
+  margin-bottom: 30px;
+}
+footer .footer__column ul {
+  text-align: center;
+}
+footer .footer__column ul li {
+  margin-bottom: 10px;
+}
